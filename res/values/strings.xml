@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <string name="app_name">Search TextView Tut</string>
+  <string name="button_search_text">Search</string>
+  <string name="edit_text_hint_country_input">Type a country name</string>
+  <string name="text_view_description">Find out how many Androids are in:</string>
+
+</resources>

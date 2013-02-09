@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical" >
+
+  <TextView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/text_view_description" />
+
+  <EditText
+    android:id="@+id/activity_main_edit_text_country"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:hint="@string/edit_text_hint_country_input" />
+
+  <Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:onClick="onSearchButtonClick"
+    android:text="@string/button_search_text" />
+
+  <com.blundell.tut.widget.SearchTextView
+    android:id="@+id/activity_main_text_view_search"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal" />
+
+</LinearLayout>
